@@ -1,0 +1,95 @@
+baseURL = "https://shahrukhmalik.com"
+languageCode = "en-us"
+title = "Shahrukh Malik"
+theme = "hugo-theme-cactus-main"
+copyright = "Shahrukh Malik"
+disqusShortname = "shahrukh"
+# googleAnalytics = "TODO"
+
+summaryLength = 2
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
+
+[params]
+
+  colortheme = "dark" # dark, light, white, or classic
+  rss = true
+  googleAnalyticsAsync = true
+  showAllPostsArchive = false # default
+
+  # Home page settings
+  description = "I am Shahrukh."
+  mainSection = "posts"
+  showAllPostsOnHomePage = false
+  postsOnHomePage = 5
+  tagsOverview = true
+  showProjectsList = true
+  projectsUrl = "https://github.com/srmrox" # title link for projects list
+
+  dateFormat = "2006-01-02"
+
+  # Post page settings
+  show_updated = true
+  showReadTime = true
+
+  [params.comments]
+    enabled = false
+    engine = "utterances" # only disqus, utterances, and cactus_comments
+    [params.comments.utterances]
+      repo = "srmrox/shahrukhmalik.com"
+      label = "shahrukhmalik.com"
+      theme = "github-light"
+    [params.comments.cactuscomments]
+      siteName = "your_cactus_comments_sitename" # see https://cactus.chat/ on how to register your site name
+      #serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
+      #serverName = "" # Defaults to cactus.chat
+
+  # the value of name should be an valid font awesome icon name (brands type)
+  # https://fontawesome.com/icons?d=gallery&s=brands
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/srmrox"
+  [[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/shahrukhm/"
+  [[params.social]]
+    name = "email"
+    link = "email@shahrukhmalik.com"  # no need for "mailto:" in the head
+
+[markup.goldmark.renderer]
+hardWraps = true

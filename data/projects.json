@@ -1,0 +1,29 @@
+{
+    "list": [
+        {
+            "name":"BitPrimate",
+            "url":"http://bitprimate.com/",
+            "desc":"Curated, AI art"
+        },
+        {
+            "name":"Dervaish",
+            "url":"http://dervaish.com/",
+            "desc":"Insights in faith"
+        },
+        {
+          "name":"HSAB",
+          "url":"https://hsab.net/",
+          "desc":"A fast, simple & powerful blockchain framework"
+        },
+        {
+            "name":"Ilm Cafe",
+            "url":"http://ilmcafe.org/",
+            "desc":"Structured meet-ups for sharing knowledge"
+        },
+        {
+            "name":"Open Systems",
+            "url":"http://opensystems.co/",
+            "desc":"Open organization to solve real-world problems"
+        }
+    ]
+}
