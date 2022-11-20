@@ -1,5 +1,5 @@
 ---
-title: "You should"
+title: "Yǫ̷̨̹͉̥͉̩̑́́̍͗͆ȗ̴͖͕̏́̀͂̎̓ should"
 date: 2022-11-17T7:30:41Z
 draft: false
 tags:
