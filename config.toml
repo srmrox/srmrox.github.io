@@ -54,8 +54,9 @@ weight = 4
 
   # Home page settings
   description = "I am Shahrukh."
+  mainSectionTitle = "Seè̴̩͍̥͇͓͔̌̎̂̈́̕ all Posts"
   mainSection = "posts"
-  showAllPostsOnHomePage = false
+  showAllPostsOnHomePage = true
   postsOnHomePage = 5
   tagsOverview = true
   showProjectsList = true
