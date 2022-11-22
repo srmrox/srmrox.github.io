@@ -1,5 +1,5 @@
 ---
-title: "Li̴̢̛̱̜͙̟̬̣̖̇̊̊̇͒ͅmi̶̱̫͑͋̀́̈́͆ts and Attȉ̶͖̻̹̙̮͎̜͖̦͔tude"
+title: "Limits and Attitude"
 date: 2022-11-10T16:45:41Z
 draft: false
 tags:
